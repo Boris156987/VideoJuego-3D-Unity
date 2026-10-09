@@ -10,7 +10,6 @@ public class KeyPickup : MonoBehaviour
 
     [Header("Feedback al recoger")]
     [SerializeField] private AudioClip pickupSound;
-    [SerializeField] private GameObject pickupEffect;
 
     private Vector3 startPosition;
 
@@ -34,8 +33,8 @@ public class KeyPickup : MonoBehaviour
         if (AudioManager.Instance != null)
             AudioManager.Instance.PlaySFX(pickupSound);
 
-        if (pickupEffect != null)
-            Instantiate(pickupEffect, transform.position, Quaternion.identity);
+        if (EffectPool.Instance != null)
+            EffectPool.Instance.Play(transform.position);
 
         Destroy(gameObject);
     }
