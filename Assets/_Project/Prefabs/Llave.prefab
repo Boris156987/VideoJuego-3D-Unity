@@ -115,4 +115,4 @@ MonoBehaviour:
   bobHeight: 0.1
   bobSpeed: 2
   pickupSound: {fileID: 8300000, guid: e313fa35368ad354db35bdef3c5733bc, type: 3}
-  pickupEffect: {fileID: 0}
+  pickupEffect: {fileID: 5203763870515770786, guid: 432a416736f18d14f942838ae6468e41, type: 3}
