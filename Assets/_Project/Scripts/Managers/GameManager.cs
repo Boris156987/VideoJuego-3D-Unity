@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject endPanel;
     [SerializeField] private TMP_Text endTitle;
     [SerializeField] private string menuSceneName = "MenuPrincipal";
+    [SerializeField] private string restartSceneName = "Nivel0";
 
     [SerializeField] private PlayerHealth playerHealth;
 
@@ -115,7 +116,7 @@ public class GameManager : MonoBehaviour
     public void RestartLevel()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(restartSceneName);
     }
 
     public void GoToMenu()

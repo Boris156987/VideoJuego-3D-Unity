@@ -404,7 +404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e572c4287e130e4bb00cfe5ee4d14e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu
-  gameSceneName: Nivel1
+  gameSceneName: Nivel0
 --- !u!4 &907205703
 Transform:
   m_ObjectHideFlags: 0
