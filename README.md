@@ -26,4 +26,4 @@ Ve a la sección **Releases** de este repositorio, descarga `Escape_del_Manicomi
 ## Créditos de assets
 - Escenario: Abandoned Asylum (Unity Asset Store)
 - Zombi: FREE Shirtless Zombie (Studio New Punch, Unity Asset Store)
-- Música y sonidos: (anota aquí la fuente de cada uno)
+- Música y efectos de sonido: bibliotecas gratuitas de audio libre de derechos
